@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "enricbd-1fde0": {
+      "hosting": {
+        "firechat": [
+          "enricbd-1fde0"
+        ]
+      }
+    }
+  }
+}
