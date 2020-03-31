@@ -7,6 +7,15 @@
     width: 40%;
 }
 
+.button-env {
+    width: 8%;
+    height: 2em;
+}
+
+.input-env {
+    width: 90% !important;
+}
+
 .msg-window {
     padding: 10px;
     /*centrar caja cuando width es % con margin: 0 auto*/

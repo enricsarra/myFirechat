@@ -17,8 +17,9 @@
         </p>
     </div>
 
-
-
 </div>
 
-<input type="text" name="mensaje" [(ngModel)]="mensaje" class="form-control" (keyup.enter)="enviar_mensaje()" placeholder="Enviar mensaje">
+<input type="text" name="mensaje" [(ngModel)]="mensaje" class=" input-env" (keyup.enter)="enviar_mensaje()" placeholder="Enviar mensaje">
+<button (click)="enviar_mensaje()" type="button" class="btn btn-outline-danger button-env ml-2">
+    <i class="fas fa-location-arrow"></i>
+  </button>
