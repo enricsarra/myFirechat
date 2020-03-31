@@ -20,6 +20,6 @@
 </div>
 
 <input type="text" name="mensaje" [(ngModel)]="mensaje" class=" input-env" (keyup.enter)="enviar_mensaje()" placeholder="Enviar mensaje">
-<button (click)="enviar_mensaje()" type="button" class="btn btn-outline-danger button-env ml-2">
+<button *ngIf="mensaje.length > 0" (click)="enviar_mensaje()" type="button" class="btn btn-outline-danger button-env ml-2 rounded ">
     <i class="fas fa-location-arrow"></i>
   </button>
