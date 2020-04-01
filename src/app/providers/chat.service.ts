@@ -128,7 +128,7 @@ export class ChatService {
 
   agregarMensaje( texto: string ) {
 
-    // TODO falta el UID del usuario
+    //  falta el UID del usuario
     console.log('usuario', this.usuario);
     const mensaje: Mensaje = {
     nombre:  this.usuario.nombre,

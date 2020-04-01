@@ -19,8 +19,6 @@ export class ChatComponent implements OnInit {
    this._cs.cargarMensajes()
             .subscribe( ( mensajes ) => {
 
-              //console.log('mensajes...', mensajes );
-              
               // retrasamos para que le dé tiempo a 
               // renderizar la pantalla
               setTimeout( () => {
@@ -39,6 +37,7 @@ export class ChatComponent implements OnInit {
   }
 
   ngOnInit() {
+    // para cambiar el scroll 
     this.elemento = document.getElementById('app-mensajes');
   }
 

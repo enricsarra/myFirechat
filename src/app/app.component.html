@@ -1,16 +1,17 @@
-<!-- <h1>App Works !!!</h1> -->
+<!-- https://codepen.io/davidelvar/pen/dYMgrR -->
+
 
 <div class="main-container bg-dark text-secondary">
-    <h1 class=" enric float-left">Firechat</h1>
+    <h1 class=" enric float-left ml-4">Firechat</h1>
 
     <div class="col-md-12 text-right pt-2" *ngIf="_cs.usuario.uid">
-        <p>"_cs.usuario.uid" {{_cs.usuario.uid}} </p>
-        <button type="button" class="btn btn-outline-danger" (click)="_cs.logout()">
-        Salir  {{_cs.usuario.uid}}
+        <!-- <p>"_cs.usuario.uid" {{_cs.usuario.uid}} </p> -->
+        <button type="button" class="btn  btn-primary" (click)="_cs.logout()">
+        Tornar 
       </button>
     </div>
 
-    {{!_cs.usuario.uid}} - {{_cs.usuario.uid}}
+    <!-- {{!_cs.usuario.uid}} - {{_cs.usuario.uid}} -->
     <app-login *ngIf="!_cs.usuario.uid"></app-login>
 
 
