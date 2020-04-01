@@ -12,7 +12,6 @@ export class ChatComponent implements OnInit {
   mensaje = '';
   elemento: any;
 
-
   // tslint:disable-next-line: variable-name
   constructor( public _cs: ChatService  ) {
 
@@ -56,4 +55,6 @@ export class ChatComponent implements OnInit {
 
   }
 
+  
 }
+

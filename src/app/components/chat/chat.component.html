@@ -19,6 +19,15 @@
 
 </div>
 
+
+
+
+<input type="file" id="myfile" name="myfile" class="btn btn-info ">
+
+
+
+
+
 <input type="text" name="mensaje" [(ngModel)]="mensaje" class=" input-env" (keyup.enter)="enviar_mensaje()" placeholder="Enviar missatge">
 <button *ngIf="mensaje.length > 0" (click)="enviar_mensaje()" type="button" class="btn btn-outline-danger btn-primary button-env ml-2 ">
     <i class="fas fa-location-arrow"></i>
